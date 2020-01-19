@@ -1,0 +1,314 @@
+* {
+    width: 0px;
+    padding: 0px;
+    border: 1px dotted pink;
+}
+
+#wrapper {
+    width: 970px;
+    height: 1400px;
+}
+
+#header {
+    display: block;
+    width: 970px;
+}
+
+#header img {
+    display: inline;
+    width: 75px;
+    height: 75px;
+}
+
+#header h1 {
+    display: inline;
+    color: black;
+    vertical-align: center;
+    font-size: 42px;
+    
+}
+
+#internet {
+    height: 75px;
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#header h1 #net {
+    color: #3763ab;
+}
+
+#header h2 {
+    width: 970px;
+    color: white;
+    font-size: 34px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#header #wwwbar {
+    margin-top: -25px;
+    width: 970px;
+    height: 70px;
+    background-image: linear-gradient(#3763ab,#b8c1cf,#3763ab);
+}
+
+
+#midsection {
+    background-color: #b8c1cf;
+    width: 970px;
+    height: 1200px;
+}
+
+#sidebar {
+    display: inline-block;
+    width: 245px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#midsection #sidebar h3 span {
+    display: inline;
+    color: red;
+}
+#midsection #sidebar h3 {
+    display: inline;
+    color: black;
+}
+
+#midsection #sidebar #internet_text { 
+    display: inline;
+}
+
+#midsection #sidebar #internet_text .internet_text_span {
+    color: #3763ab;
+    font-weight: bold;
+    display: inline;
+}
+
+#watch_video {
+    display: block;
+    width: 245px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #3763ab;
+    border-radius: 5px;
+}
+
+#more_resources {
+    display: block;
+    width: 245px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#sidebar {
+    display:inline-block;
+}
+
+#sidebar #ad #ad_background {
+    width: 245px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    border-top: 3px solid black;
+    padding-top: 10px;
+}
+
+#sidebar #ad {
+    width: 245px;
+    
+}
+
+#sidebar #ad #ad_text {
+    
+    position: relative;
+    top: -235px;
+    color: white;
+    display: inline;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#ad_ninja {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: -200px;
+    left: 65px;
+}
+
+
+
+#learn_more {
+    width: 200px;
+    height: 30px;
+    background-color: lightskyblue;
+    position: relative;
+    top: -200px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+
+.content_top {
+    width: 710px;
+    height: 80px;
+    display: inline-block;
+    border-bottom: 2px solid gray;
+}
+
+.content_top img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_top h4 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width: 100px;
+    margin: 0px;
+}
+
+#phone_img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 280px;
+
+}
+
+.content .small_text {
+    width: 150px;
+    height: 15px;
+    font-size: 10px;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin: 0px;
+}
+
+.content .small_text_2 {
+    width: 150px;
+    height: 15px;
+    font-size: 10px;
+    color: black;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: right;
+    margin: 0px;
+}
+
+#phone_num {
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    color: blue;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin: 0px;
+    font-size: 24px;
+}
+
+#right_bar {
+    width: 200px;
+    height: 75px;
+    vertical-align: top;
+    margin: 0px;
+    margin-left: 480px;
+    margin-top: -60px;
+}
+
+.main_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 700px;
+    height: 875px;
+    margin-top: 15px;
+}
+
+.content_heading {
+    color: #3763ab;
+    display: block;
+    width: 500px;
+}
+
+.content_text {
+    display: block;
+    color: black;
+    font-size: 14px;
+    width: 670px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.content_emph {
+    color: rgb(15, 92, 139);
+}
+
+.content_bold {
+    font-weight: bold;
+}
+
+#client_server_img {
+    width: 250px;
+    height: 100px;
+    margin-left: 230px;
+}
+
+.main_content ol li {
+    width: 700px;
+    display: block;
+    margin: 20px;
+}
+
+.bottombar {
+    width: 700px;
+    height: 200px;
+    display: inline-block;
+    border: 5px solid navy;
+    border-bottom: none;
+}
+
+.bottombar img {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+}
+
+.big3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_italic {
+    font-style: italic;
+}
+
+.bottombar a {
+    display: inline;
+}
+.bottombar .learn_more {
+    width: 200px;
+    display: inline;
+}
+
+
+
